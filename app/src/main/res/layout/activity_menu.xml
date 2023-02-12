@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity">
+    tools:context=".Menu">
 
     <TextView
         android:layout_width="wrap_content"
@@ -12,25 +12,28 @@
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="61dp"
-        android:text="My First Android App!" />
+        android:text="Menu"
 
-    <Button
-        android:id="@+id/Menu"
+        />
+
+    <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="219dp"
-        android:text="Menu" />
+        android:layout_marginTop="221dp"
+        android:text="Not much to see here just yet, but give it time!"
+
+        />
 
     <Button
-        android:id="@+id/About"
+        android:id="@+id/button2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentTop="true"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="324dp"
-        android:text="About Me" />
 
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="404dp"
+        android:text="Home" />
 
 </RelativeLayout>
