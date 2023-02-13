@@ -22,8 +22,8 @@
         android:layout_height="wrap_content"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="221dp"
-        android:text="Not much to see here just yet, but give it time!"
+        android:layout_marginTop="150dp"
+        android:text="Guess My Specialty"
 
         />
 
@@ -34,7 +34,28 @@
         android:layout_alignParentTop="true"
 
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="404dp"
+        android:layout_marginTop="405dp"
         android:text="Home" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="240dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Any Idea?" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="323dp"
+        android:text="HINT: White Hat Hacker" />
+
 
 </RelativeLayout>

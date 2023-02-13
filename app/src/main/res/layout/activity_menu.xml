@@ -21,7 +21,7 @@
         android:layout_height="wrap_content"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="221dp"
+        android:layout_marginTop="142dp"
         android:text="Not much to see here just yet, but give it time!"
 
         />
@@ -35,5 +35,24 @@
         android:layout_centerHorizontal="true"
         android:layout_marginTop="404dp"
         android:text="Home" />
+
+    <EditText
+        android:id="@+id/editTextPhone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="204dp"
+        android:ems="10"
+        android:inputType="phone" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="280dp"
+        android:text="Please insert How long you think this app will take to Develop(in months)" />
 
 </RelativeLayout>
