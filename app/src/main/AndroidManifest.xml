@@ -10,6 +10,18 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.ED5042ETIVITY1">
         <activity
+            android:name=".About"
+            android:exported="false" />
+        <activity
+            android:name=".Settings2"
+            android:exported="false" />
+        <activity
+            android:name=".Settings"
+            android:exported="false" />
+        <activity
+            android:name=".Menu"
+            android:exported="false" />
+        <activity
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>
