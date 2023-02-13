@@ -14,8 +14,8 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        Button buttonA = (Button) findViewById(R.id.About);
-        Button buttonM = (Button) findViewById(R.id.Menu);
+        Button buttonA = findViewById(R.id.About);
+        Button buttonM = findViewById(R.id.Menu);
 
 
 
