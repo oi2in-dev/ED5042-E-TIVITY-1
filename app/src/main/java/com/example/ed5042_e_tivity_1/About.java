@@ -14,7 +14,7 @@ public class About extends AppCompatActivity implements View.OnClickListener{
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_about);
 
-        Button button10 = (Button)  findViewById(R.id.button10);
+        Button button10 = findViewById(R.id.button10);
 
         button10.setOnClickListener(this);
     }
