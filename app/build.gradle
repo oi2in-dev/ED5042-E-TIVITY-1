@@ -6,7 +6,7 @@ android {
     compileSdk 33
 
     defaultConfig {
-        applicationId "com.example.ed5042_e_tivity_1"
+        applicationId "com.example.ed5042_e_tivity_2"
         minSdk 21
         targetSdk 33
         versionCode 1
